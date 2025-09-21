@@ -81,7 +81,7 @@ def age_student(id):
       edad= date.today().year - student['birthday'].year 
       print(f"El estudiante {student['first_name']} {student['last_name']} tiene {edad} años.")
 
-def ad_notes(id, grades):
+def ad_notes(id):
     for student in students:
         if student["id"] == id:
             nueva_nota = float(input(
@@ -89,7 +89,7 @@ def ad_notes(id, grades):
             ))
             student['grades'].append(nueva_nota)
             print(
-                f"Las notas del estudiante {student['first_name']} {student['last_name']} son: {grades}"
+                f"Las notas del estudiante {student['first_name']} {student['last_name']} son: {student['grades']}"
             )
 
 def students_average(id, grades):

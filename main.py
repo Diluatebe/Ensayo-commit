@@ -47,7 +47,7 @@ print(
         "los estudiantes\n4:Obtener los datos de un estudiante\n5:Determinar la edad de un estudiante\n"
         "6:Agregar una nota a un estudiante\n7:Promedio de un estudiante\n8:Listar los estudiantes que pierden"
           )
-while selección<6:
+while selección<9:
     selección=int(input("Elija su opción:"))
     if selección == 1:
       name = input("Escribe el nombre: ")
@@ -73,10 +73,10 @@ while selección<6:
       get_Student_by_id(id)
     elif selección == 5:
       id=int(input("Introduzca id del estudiante de que desea conocer su edad:"))
-      age_student
+      age_student(id)
     elif selección == 6:
       id=int(input("Introduzca id del estudiante al que va a agregar nota:"))
-      ad_notes(id, grades)
+      ad_notes(id)
     else:
       break
       
