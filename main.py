@@ -75,7 +75,7 @@ while selección<9:
       id=int(input("Introduzca id del estudiante de que desea conocer su edad:"))
       age_student(id)
     elif selección == 6:
-      id=int(input("Introduzca id del estudiante al que va a agregar nota:"))
+      id=int(input("Introduzca número de identificación del estudiante al que va a agregar nota:"))
       ad_notes(id)
     else:
       break
@@ -84,20 +84,3 @@ while selección<9:
       
     
 
-# ...
-# name = "Diego Armando"
-# last_name = "Atehortúa"
-# date = date(1979, 6, 27)
-# id = 3
-#create_student(id, name, last_name, birthday)
-#get_all_students()
-##Imprimir los datos todos los estudiantes que no aprobaron            
-# id_perdedores= []
-# for lose in students:     
-# 	if students_aprob is False:
-#     id_perdedores.append=[{}]
-#       print(id_perdedores)
-# delete_student_by_id(2)         
-# get_all_students()         
-#print_student_data(2)           
-#age_student(3)

@@ -106,9 +106,3 @@ def students_aprob(id, average):
         return True
     return False
 
-# def info_student (id, students_average, age_student):
-#   for info in students:
-#     if students[id] == id:
-#       print(f"El estudiante {info['first_name']} {info['last_name']}, de {age_student} tiene un promedio de notas de {average}.")
-#     return None
-         
